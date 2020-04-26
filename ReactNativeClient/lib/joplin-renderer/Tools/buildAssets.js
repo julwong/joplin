@@ -41,6 +41,11 @@ async function main() {
 
 	await copyFile(`${rootDir}/node_modules/mermaid/dist/mermaid.min.js`, 'mermaid/mermaid.min.js');
 	await copyFile(`${rootDir}/MdToHtml/rules/mermaid_render.js`, 'mermaid/mermaid_render.js');
+
+	await copyFile(`${rootDir}/node_modules/d3/dist/d3.min.js`, 'markmap/d3.min.js');
+	await copyFile(`${rootDir}/node_modules/mathjax/es5/tex-svg.js`, 'markmap/tex-svg.js');
+	await copyFile(`${rootDir}/node_modules/markmap-lib/dist/view.min.js`, 'markmap/view.min.js');
+	await copyFile(`${rootDir}/MdToHtml/rules/markmap/mathjax_render.js`, 'markmap/mathjax_render.js');
 }
 
 main().catch((error) => {

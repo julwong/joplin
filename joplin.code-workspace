@@ -65,7 +65,6 @@
 			"ElectronClient/lib/": true,
 			"ElectronClient/locale/": true,
 			"ElectronClient/build/": true,
-			"ElectronClient/dist/": true,
 			"node_modules/": true,
 			"docs/images/flags": true,
 			"ReactNativeClient/android/.gradle/": true,
@@ -79,6 +78,10 @@
 			"ReactNativeClient/node_modules/": true,
 			"Server/db*.sqlite/": true,
 			"Server/dist/": true,
+			"**/.classpath": true,
+			"**/.project": true,
+			"**/.settings": true,
+			"**/.factorypath": true
 		},
 		"spellright.language": [
 			"en"
